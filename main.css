@@ -1,0 +1,26 @@
+h1,h2{
+	text-align: center;
+	background-color: darkcyan;
+	border-radius: 5px;
+	padding: 2px;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid ;
+	border-radius: 20px;
+}
+.container{
+	display: block;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+div > p {
+	padding: 20px;
+}
+.footer{
+	text-align: center;
+	
+}
