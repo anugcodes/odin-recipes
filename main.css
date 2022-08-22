@@ -1,6 +1,8 @@
+*{
+	font-family: "century gothic";
+}
 h1,h2{
 	text-align: center;
-	background-color: darkcyan;
 	border-radius: 5px;
 	padding: 2px;
 }
@@ -9,18 +11,24 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	border: 5px solid ;
+	max-width: 600px;
 	border-radius: 20px;
 }
-.container{
+.m1{
 	display: block;
-	width: 60%;
+	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
+}
+.m1 > ul{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
 }
 div > p {
 	padding: 20px;
 }
 .footer{
 	text-align: center;
-	
+	padding-top: 30px;
 }
